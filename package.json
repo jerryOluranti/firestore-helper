@@ -1,0 +1,11 @@
+{
+  "name": "firestore-helper",
+  "version": "1.0.0",
+  "main": "lib/firestore-helper.ts",
+  "repository": "git@github.com:jerryOluranti/firestore-helper.git",
+  "author": "Jeremiah Faluyi <faluyijeremiah2018@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "firebase-admin": "^11.0.1"
+  }
+}
