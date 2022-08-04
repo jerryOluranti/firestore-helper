@@ -1,0 +1,5 @@
+src/
+types/
+logs/
+jest.config.ts
+tsconfig.json
