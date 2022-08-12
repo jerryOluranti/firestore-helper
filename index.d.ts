@@ -16,7 +16,7 @@ export declare interface FirestoreHelperQuery {
   value: any;
 }
 
-declare class FirestoreHelper {
+export declare class FirestoreHelper {
   constructor(firestore: Firestore, collection: string);
   getCollection(colPath?: string): Promise<any>;
   getDocument(document: string): Promise<any>;
@@ -34,6 +34,7 @@ declare class FirestoreHelper {
   create<T>(data: T, document?: string): Promise<T>;
   createDocWithSubCollections<T>(data: any, document: string, colArr: Array<Extract<keyof T, string>>): Promise<T>;
   update(document: string, data: any): Promise<any>;
+  delete(document: string): Promise<any>;
   execMultipleQuery(ref: CollectionReference<DocumentData>, queries: FirestoreHelperQuery[]): Query<DocumentData> | undefined;
   convertRefToData<T>(objWithRef: T, refField: Extract<keyof T, string>): Promise<any>;
 }

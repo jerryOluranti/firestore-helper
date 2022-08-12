@@ -1,10 +1,13 @@
 {
-  "name": "firestore-helper-functions",
+  "name": "robin",
   "version": "1.0.0",
   "main": "dist/firestore-helper.js",
   "repository": "git@github.com:jerryOluranti/firestore-helper-functions.git",
   "author": "Jeremiah Faluyi <faluyijeremiah2018@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "compile": "tsc && cp index.d.ts ./dist"
+  },
   "keywords": [
     "firestore",
     "crud",
