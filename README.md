@@ -1,4 +1,4 @@
-# robin 🏹
+# firestored
 ### An helper library that simplifies Firebase Firestore operations and queries
 
 This library is built on the firebase-admin sdk, thus limiting it to server side usage only.
@@ -33,7 +33,7 @@ Wohooo🚀🚀🚀
 
 ----------
 
-🪲 Report bugs and issues on the [git repo](https://github.com/jerryOluranti/robin/issues)
+🪲 Report bugs and issues on the [git repo](https://github.com/jerryOluranti/firestored/issues)
 
 ⭐ Remember to leave a star on the repository
 
