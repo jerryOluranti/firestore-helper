@@ -1,4 +1,4 @@
-# firestored
+# firestored 🔥
 ### An helper library that simplifies Firebase Firestore operations and queries
 
 This library is built on the firebase-admin sdk, thus limiting it to server side usage only.
@@ -15,11 +15,11 @@ This library is built on the firebase-admin sdk, thus limiting it to server side
 
 ### Install
 
-`npm i robin` or `yarn add robin`
+`npm i firestored` or `yarn add firestored`
 
 ### Import
 
-`import { FirestoreHelper } from "robin"` or `const { FirestoreHelper } = require("robin")`
+`import { FirestoreHelper } from "firestored"` or `const { FirestoreHelper } = require("firestored")`
 
 ### Create Instance
 
@@ -28,6 +28,8 @@ This library is built on the firebase-admin sdk, thus limiting it to server side
   // firestore => FirebaseFirestore.Firestore object
   // collection => string
 ```
+
+Check [here](https://github.com/jerryOluranti/firestored/blob/main/index.d.ts) for available methods for I am too ~lazy~ busy to write docs at the moment 🦥😂
 
 Wohooo🚀🚀🚀
 
